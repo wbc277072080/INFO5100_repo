@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="BasicPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Basic">
+                <Property name="tabTitle" type="java.lang.String" value="Basic"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="createCarLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="serialNumberLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="fuelTypeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="serialNumberTextField" max="32767" attributes="0"/>
+                                          <Component id="fuelTypeComboBox" min="-2" pref="87" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="exteriorColorLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="productionYearLabel" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="priceLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="modelLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="carNameLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="modelComboBox" max="32767" attributes="0"/>
+                                          <Component id="exteriorColorTextField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="productionYearTextField" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                              <Component id="dollarLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="priceTextField" min="-2" pref="66" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="carNameTextField" alignment="0" min="-2" pref="86" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="40" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="createBasicBtn" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                      <Component id="uploadBtn" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="imageLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="createCarLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="carNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="carNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="modelLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="modelComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="priceLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="priceTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dollarLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="exteriorColorLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="exteriorColorTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="productionYearLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="productionYearTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="serialNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="serialNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="imageLabel" min="-2" pref="187" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="createBasicBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="uploadBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="fuelTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="fuelTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="createBasicBtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Create"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="createBasicBtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="carNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Car Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="carNameTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="modelLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Model"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="modelComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Small&quot;, &quot;Mini&quot;,&quot;Compact&quot;,&quot;medium&quot;,&quot;advanced&quot;,&quot;luxury&quot;,&quot;Sedan&quot;,&quot;SUV&quot;,&quot;MDV&quot;,&quot;CDV&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modelComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="priceLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Price"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="priceTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="priceTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="dollarLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="$"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="exteriorColorTextField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="exteriorColorLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exterior Color"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="productionYearLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Production Year"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="productionYearTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="productionYearTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="serialNumberLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Serial Number"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="serialNumberTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="serialNumberTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="fuelTypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fuel Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="fuelTypeComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;electric &quot;,&quot;gas&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fuelTypeComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="uploadBtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Upload Picture"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="uploadBtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="imageLabel">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/defaultimage/defaultCar.png"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JLabel()"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="createCarLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Create Your Car"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="advancedPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Advance">
+                <Property name="tabTitle" type="java.lang.String" value="Advance"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dimensionsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="lengthLabel" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="heightLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="widthLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="seatQuantityLabel" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="seatTypeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="fuelCapacityLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="heightTextField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="widthTextField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lengthTextField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="seatQuantityTextField" max="32767" attributes="0"/>
+                                          <Component id="seatTypeComboBox" pref="85" max="32767" attributes="0"/>
+                                          <Component id="fuelCapacityTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="gallonLabel1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="engineLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="fuelConsumptionLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="transmissionLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="drivetrainLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="navigationSystemLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="maxCargoCapacityLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="keylessStartLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="fuelConsumptionTextField" pref="87" max="32767" attributes="0"/>
+                                  <Component id="engineTextField" pref="87" max="32767" attributes="0"/>
+                                  <Component id="transmissionComboBox" max="32767" attributes="0"/>
+                                  <Component id="drivetrainComboBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="navigationSystemComboBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="keylessStartComboBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="maxCargoCapacityTextField" alignment="0" pref="87" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="gallonLabel2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="mpgLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="272" max="-2" attributes="0"/>
+                              <Component id="saveAdvanceBtn" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="32" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dimensionsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="maxCargoCapacityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="maxCargoCapacityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gallonLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lengthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lengthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fuelConsumptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fuelConsumptionTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mpgLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="widthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="widthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="engineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="engineTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="heightLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="heightTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="transmissionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="transmissionComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="seatQuantityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="seatQuantityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="drivetrainLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="drivetrainComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="seatTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="seatTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="navigationSystemLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="navigationSystemComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fuelCapacityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fuelCapacityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="keylessStartLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="keylessStartComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gallonLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="saveAdvanceBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="38" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="saveAdvanceBtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Create"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveAdvanceBtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="dimensionsLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="dimensions (cm)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lengthLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Length"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="lengthTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="lengthTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="widthLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Width"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="widthTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="widthTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="heightLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Height"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="heightTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="heightTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="seatQuantityLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Seat Quantity"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="seatQuantityTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seatQuantityTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="seatTypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Seat Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="seatTypeComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Flannel&quot;, &quot;Leather&quot;,&quot;Racing&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seatTypeComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="fuelCapacityLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fuel Capacity"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fuelCapacityTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fuelCapacityTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="gallonLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="gallon"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="maxCargoCapacityLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Max Cargo Capacity"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="maxCargoCapacityTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maxCargoCapacityTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="fuelConsumptionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fuel Consumption"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fuelConsumptionTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fuelConsumptionTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="gallonLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="gallon"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="engineLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Engine"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="engineTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="engineTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="transmissionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Transmission Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="transmissionComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Manual&quot;, &quot;Auto&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="transmissionComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="drivetrainLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Drivetrain"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="drivetrainComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Front Front&quot;, &quot;Front Rear&quot;,&quot;Rear Front&quot;,&quot;Rear Rear&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="drivetrainComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="navigationSystemLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Navigation System"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="navigationSystemComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Yes&quot;, &quot;None&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="navigationSystemComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="keylessStartLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Keyless Start"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="keylessStartComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Yes&quot;, &quot;None&quot;})" type="code"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="keylessStartComboBoxActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mpgLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="mpg"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
